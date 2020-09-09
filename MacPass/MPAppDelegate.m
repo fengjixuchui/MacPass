@@ -100,13 +100,8 @@ typedef NS_OPTIONS(NSInteger, MPAppStartupState) {
                                              object:nil];
     
     /* We know that we do not use the variable after instantiation */
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wunused-variable"
     MPDocumentController *documentController = [[MPDocumentController alloc] init];
-#pragma clang diagnostic pop
-    
-    
-    
+    NSAssert(documentController, @"Custom document controller cannot be nil");    
   }
   return self;
 }
@@ -224,11 +219,7 @@ typedef NS_OPTIONS(NSInteger, MPAppStartupState) {
 #endif
   self.startupState |= MPAppStartupStateFinishedLaunch;
   // Here we just opt-in for allowing our bar to be customized throughout the app.
-  if([NSApplication.sharedApplication respondsToSelector:@selector(isAutomaticCustomizeTouchBarMenuItemEnabled)]) {
-    if(@available(macOS 10.12.2, *)) {
-      NSApplication.sharedApplication.automaticCustomizeTouchBarMenuItemEnabled = YES;
-    }
-  }
+    NSApplication.sharedApplication.automaticCustomizeTouchBarMenuItemEnabled = YES;
 }
 
 #pragma mark -
