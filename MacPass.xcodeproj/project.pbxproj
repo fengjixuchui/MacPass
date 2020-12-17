@@ -48,6 +48,8 @@
 		4C25703F1BF11C2300D39416 /* MPPluginPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C25703D1BF11C2300D39416 /* MPPluginPreferencesController.m */; };
 		4C25D58716CF0FAA00F6806C /* EntryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C25D58616CF0FAA00F6806C /* EntryView.xib */; };
 		4C26C33F18D8C92100CF1A1C /* MPTemporaryFileStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26C33E18D8C92100CF1A1C /* MPTemporaryFileStorage.m */; };
+		4C2892A8257103F9003C7732 /* MPTOTPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2892A6257103F9003C7732 /* MPTOTPViewController.m */; };
+		4C2892A9257103F9003C7732 /* MPTOTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2892A7257103F9003C7732 /* MPTOTPViewController.xib */; };
 		4C2E381D16D11FF900037A9D /* 03_ServerTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E381A16D11FF900037A9D /* 03_ServerTemplate.pdf */; };
 		4C2E381E16D11FF900037A9D /* 04_KlipperTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E381B16D11FF900037A9D /* 04_KlipperTemplate.pdf */; };
 		4C2E381F16D11FF900037A9D /* 05_LanguagesTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E381C16D11FF900037A9D /* 05_LanguagesTemplate.pdf */; };
@@ -56,6 +58,9 @@
 		4C2F17A21FD69BCA0097418D /* MPUserNotificationCenterDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2F17A11FD69BCA0097418D /* MPUserNotificationCenterDelegate.m */; };
 		4C32B0E71A1D4436007E12F1 /* KPKFormat+MPUTIDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C32B0E61A1D4436007E12F1 /* KPKFormat+MPUTIDetection.m */; };
 		4C349A00218852160055AF45 /* MPKeyTyper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3499FF218852160055AF45 /* MPKeyTyper.m */; };
+		4C35664025824C0A00CAB95B /* NSImage+MPQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C35663F25824C0A00CAB95B /* NSImage+MPQRCode.m */; };
+		4C356645258259AA00CAB95B /* MPTOTPSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C356643258259AA00CAB95B /* MPTOTPSetupViewController.m */; };
+		4C356646258259AA00CAB95B /* MPTOTPSetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C356644258259AA00CAB95B /* MPTOTPSetupViewController.xib */; };
 		4C3666411787327E00B249F1 /* MPDocument+Attachments.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3666401787327E00B249F1 /* MPDocument+Attachments.m */; };
 		4C370EFE215B76CB00703AAE /* MPOutlineTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C370EFD215B76CB00703AAE /* MPOutlineTableCellView.m */; };
 		4C37A84015B8B474005EF8EE /* MPOutlineDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C37A83F15B8B474005EF8EE /* MPOutlineDataSource.m */; };
@@ -123,6 +128,8 @@
 		4C4B7EEE17A467E1000234C7 /* MPGroupInspectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4B7EEC17A467E1000234C7 /* MPGroupInspectorViewController.m */; };
 		4C4B7EF317A467FC000234C7 /* MPEntryInspectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4B7EF117A467FC000234C7 /* MPEntryInspectorViewController.m */; };
 		4C4B7EF817A4B335000234C7 /* MPUniqueCharactersFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4B7EF717A4B335000234C7 /* MPUniqueCharactersFormatter.m */; };
+		4C4BE0C8257E9B91000AEA8C /* MPNotificationPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4BE0C6257E9B91000AEA8C /* MPNotificationPreferencesController.m */; };
+		4C4BE0C9257E9B91000AEA8C /* MPNotificationPreferencesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4BE0C7257E9B91000AEA8C /* MPNotificationPreferencesController.xib */; };
 		4C4DC0A61C3AD17500DE9DCF /* KeePassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7B63791C0CB55600D7038C /* KeePassKit.framework */; };
 		4C4F72D118DF704400E8D378 /* DDHotKeyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4F72CF18DF704400E8D378 /* DDHotKeyTextField.m */; };
 		4C4FCE15177CFE6B00BBF7AE /* MPCustomFieldTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4FCE14177CFE6B00BBF7AE /* MPCustomFieldTableCellView.m */; };
@@ -153,6 +160,7 @@
 		4C6AEEF91A043E2B00CA2420 /* MPDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6AEEF81A043E2B00CA2420 /* MPDocumentController.m */; };
 		4C6B7C7D18BE7EB0001D5D77 /* MPDocument+History.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B7C7C18BE7EB0001D5D77 /* MPDocument+History.m */; };
 		4C6BC6601A36717E00BDDF3D /* MPDatabaseSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6BC65F1A36717E00BDDF3D /* MPDatabaseSearch.m */; };
+		4C6BF0762559BD4800E5812A /* KPKBinary+MacPassAddtions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6BF0752559BD4800E5812A /* KPKBinary+MacPassAddtions.m */; };
 		4C6D1D25178579570014C5A5 /* 48_FolderTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C6D1D24178579570014C5A5 /* 48_FolderTemplate.pdf */; };
 		4C6DCC451FA2457900C8AD3F /* ContextBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C6DCC471FA2457900C8AD3F /* ContextBar.xib */; };
 		4C6DCC611FA24C2100C8AD3F /* MPAutotypeCandidateSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DCC5F1FA24C2100C8AD3F /* MPAutotypeCandidateSelectionViewController.m */; };
@@ -431,6 +439,9 @@
 		4C272A292224871900186EEC /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/PluginDataView.strings; sourceTree = "<group>"; };
 		4C272A2A2224871900186EEC /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/OpenPanelAccessoryView.strings; sourceTree = "<group>"; };
 		4C272A2B2224871900186EEC /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/PickfieldView.strings; sourceTree = "<group>"; };
+		4C2892A5257103F9003C7732 /* MPTOTPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPTOTPViewController.h; sourceTree = "<group>"; };
+		4C2892A6257103F9003C7732 /* MPTOTPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPTOTPViewController.m; sourceTree = "<group>"; };
+		4C2892A7257103F9003C7732 /* MPTOTPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MPTOTPViewController.xib; sourceTree = "<group>"; };
 		4C2B0B7419F66F6400E48913 /* MPTargetNodeResolving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTargetNodeResolving.h; sourceTree = "<group>"; };
 		4C2E381A16D11FF900037A9D /* 03_ServerTemplate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 03_ServerTemplate.pdf; sourceTree = "<group>"; };
 		4C2E381B16D11FF900037A9D /* 04_KlipperTemplate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 04_KlipperTemplate.pdf; sourceTree = "<group>"; };
@@ -445,6 +456,11 @@
 		4C32B0E61A1D4436007E12F1 /* KPKFormat+MPUTIDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KPKFormat+MPUTIDetection.m"; sourceTree = "<group>"; };
 		4C3499FE218852160055AF45 /* MPKeyTyper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPKeyTyper.h; sourceTree = "<group>"; };
 		4C3499FF218852160055AF45 /* MPKeyTyper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPKeyTyper.m; sourceTree = "<group>"; };
+		4C35663E25824C0A00CAB95B /* NSImage+MPQRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSImage+MPQRCode.h"; sourceTree = "<group>"; };
+		4C35663F25824C0A00CAB95B /* NSImage+MPQRCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSImage+MPQRCode.m"; sourceTree = "<group>"; };
+		4C356642258259AA00CAB95B /* MPTOTPSetupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPTOTPSetupViewController.h; sourceTree = "<group>"; };
+		4C356643258259AA00CAB95B /* MPTOTPSetupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPTOTPSetupViewController.m; sourceTree = "<group>"; };
+		4C356644258259AA00CAB95B /* MPTOTPSetupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MPTOTPSetupViewController.xib; sourceTree = "<group>"; };
 		4C3666401787327E00B249F1 /* MPDocument+Attachments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MPDocument+Attachments.m"; sourceTree = "<group>"; };
 		4C370EFC215B76CB00703AAE /* MPOutlineTableCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOutlineTableCellView.h; sourceTree = "<group>"; };
 		4C370EFD215B76CB00703AAE /* MPOutlineTableCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOutlineTableCellView.m; sourceTree = "<group>"; };
@@ -550,6 +566,9 @@
 		4C4B7EF117A467FC000234C7 /* MPEntryInspectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPEntryInspectorViewController.m; sourceTree = "<group>"; };
 		4C4B7EF617A4B335000234C7 /* MPUniqueCharactersFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPUniqueCharactersFormatter.h; sourceTree = "<group>"; };
 		4C4B7EF717A4B335000234C7 /* MPUniqueCharactersFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPUniqueCharactersFormatter.m; sourceTree = "<group>"; };
+		4C4BE0C5257E9B91000AEA8C /* MPNotificationPreferencesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPNotificationPreferencesController.h; sourceTree = "<group>"; };
+		4C4BE0C6257E9B91000AEA8C /* MPNotificationPreferencesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPNotificationPreferencesController.m; sourceTree = "<group>"; };
+		4C4BE0C7257E9B91000AEA8C /* MPNotificationPreferencesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MPNotificationPreferencesController.xib; sourceTree = "<group>"; };
 		4C4F72CF18DF704400E8D378 /* DDHotKeyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; name = DDHotKeyTextField.m; path = DDHotKey/DDHotKeyTextField.m; sourceTree = "<group>"; tabWidth = 4; };
 		4C4F72D018DF704400E8D378 /* DDHotKeyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHotKeyTextField.h; path = DDHotKey/DDHotKeyTextField.h; sourceTree = "<group>"; };
 		4C4FCE13177CFE6B00BBF7AE /* MPCustomFieldTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPCustomFieldTableCellView.h; sourceTree = "<group>"; };
@@ -604,6 +623,8 @@
 		4C6AEEF81A043E2B00CA2420 /* MPDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPDocumentController.m; sourceTree = "<group>"; };
 		4C6B7C7C18BE7EB0001D5D77 /* MPDocument+History.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MPDocument+History.m"; sourceTree = "<group>"; };
 		4C6BC65F1A36717E00BDDF3D /* MPDatabaseSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPDatabaseSearch.m; sourceTree = "<group>"; };
+		4C6BF0742559BD4800E5812A /* KPKBinary+MacPassAddtions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KPKBinary+MacPassAddtions.h"; sourceTree = "<group>"; };
+		4C6BF0752559BD4800E5812A /* KPKBinary+MacPassAddtions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KPKBinary+MacPassAddtions.m"; sourceTree = "<group>"; };
 		4C6D1D24178579570014C5A5 /* 48_FolderTemplate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 48_FolderTemplate.pdf; sourceTree = "<group>"; };
 		4C6DCC461FA2457900C8AD3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ContextBar.xib; sourceTree = "<group>"; };
 		4C6DCC4B1FA2457D00C8AD3F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/ContextBar.strings; sourceTree = "<group>"; };
@@ -948,6 +969,38 @@
 		6A74B07C2076F4B60049BC29 /* sv-SE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sv-SE"; path = "sv-SE.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		6A74B07D2076F4B60049BC29 /* sv-SE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sv-SE"; path = "sv-SE.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		6E719715172058BA00E4C5FC /* MPDatabaseVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPDatabaseVersion.h; sourceTree = "<group>"; };
+		6FECA75A24D51B0700BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/DatabaseSettingsWindow.strings; sourceTree = "<group>"; };
+		6FECA75B24D51B0700BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/DuplicateEntryOptionsWindow.strings; sourceTree = "<group>"; };
+		6FECA75C24D51B0700BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/PasswordEditWindow.strings; sourceTree = "<group>"; };
+		6FECA75D24D51B0700BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/SavePanelAccessoryView.strings; sourceTree = "<group>"; };
+		6FECA75E24D51B0800BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/EntryInspectorView.strings; sourceTree = "<group>"; };
+		6FECA75F24D51B0800BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/GroupInspectorView.strings; sourceTree = "<group>"; };
+		6FECA76024D51B0800BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InspectorView.strings; sourceTree = "<group>"; };
+		6FECA76124D51B0800BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/GeneralPreferences.strings; sourceTree = "<group>"; };
+		6FECA76224D51B0800BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/IntegrationPreferences.strings; sourceTree = "<group>"; };
+		6FECA76324D51B0800BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/PluginPreferences.strings; sourceTree = "<group>"; };
+		6FECA76424D51B0800BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/PluginRepositoryBrowserView.strings; sourceTree = "<group>"; };
+		6FECA76524D51B0900BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/UpdatePreferences.strings; sourceTree = "<group>"; };
+		6FECA76624D51B0900BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/WorkflowPreferences.strings; sourceTree = "<group>"; };
+		6FECA76724D51B0900BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AutotypeBuilderView.strings; sourceTree = "<group>"; };
+		6FECA76824D51B0900BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AutotypeCandidateSelectionView.strings; sourceTree = "<group>"; };
+		6FECA76924D51B0900BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AutotypeDoctorReportViewController.strings; sourceTree = "<group>"; };
+		6FECA76A24D51B0900BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/ContextBar.strings; sourceTree = "<group>"; };
+		6FECA76B24D51B0900BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/DatePickingView.strings; sourceTree = "<group>"; };
+		6FECA76C24D51B0A00BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/IconSelection.strings; sourceTree = "<group>"; };
+		6FECA76D24D51B0A00BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/PasswordCreatorView.strings; sourceTree = "<group>"; };
+		6FECA76E24D51B0A00BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/PasswordInputView.strings; sourceTree = "<group>"; };
+		6FECA76F24D51B0A00BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/PickcharsView.strings; sourceTree = "<group>"; };
+		6FECA77024D51B0A00BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/PickfieldView.strings; sourceTree = "<group>"; };
+		6FECA77124D51B0A00BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/PluginDataView.strings; sourceTree = "<group>"; };
+		6FECA77224D51B0A00BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/ReferenceBuilderView.strings; sourceTree = "<group>"; };
+		6FECA77324D51B0B00BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/WelcomeView.strings; sourceTree = "<group>"; };
+		6FECA77424D51B0B00BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/OpenPanelAccessoryView.strings; sourceTree = "<group>"; };
+		6FECA77524D51B0B00BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		6FECA77624D51B0B00BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ja; path = ja.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		6FECA77724D51B0B00BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6FECA77824D51B0B00BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6FECA77924D51B0B00BBA9BB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		713F9B481C95CEA000605880 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/PluginPreferences.strings; sourceTree = "<group>"; };
 		71FF7A19230FEA24002F488F /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/SavePanelAccessoryView.strings; sourceTree = "<group>"; };
 		71FF7A1B230FED35002F488F /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/PluginRepositoryBrowserView.strings; sourceTree = "<group>"; };
@@ -1187,6 +1240,10 @@
 				3C0CDECE21CFEDD200B2A10B /* NSTextView+MPTouchBarExtension.m */,
 				4C0949571FD6B89B004F2971 /* NSUserNotification+MPAdditions.h */,
 				4C0949581FD6B89B004F2971 /* NSUserNotification+MPAdditions.m */,
+				4C6BF0742559BD4800E5812A /* KPKBinary+MacPassAddtions.h */,
+				4C6BF0752559BD4800E5812A /* KPKBinary+MacPassAddtions.m */,
+				4C35663E25824C0A00CAB95B /* NSImage+MPQRCode.h */,
+				4C35663F25824C0A00CAB95B /* NSImage+MPQRCode.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -1354,6 +1411,9 @@
 				4CD7223917A7CB0700F5A1E1 /* MPWorkflowPreferencesController.h */,
 				4CD7223A17A7CB0700F5A1E1 /* MPWorkflowPreferencesController.m */,
 				6021FE6318E15D9100C3BC51 /* WorkflowPreferences.xib */,
+				4C4BE0C5257E9B91000AEA8C /* MPNotificationPreferencesController.h */,
+				4C4BE0C6257E9B91000AEA8C /* MPNotificationPreferencesController.m */,
+				4C4BE0C7257E9B91000AEA8C /* MPNotificationPreferencesController.xib */,
 			);
 			name = Preferences;
 			sourceTree = "<group>";
@@ -1370,6 +1430,9 @@
 				4C77547316E55FE800970E02 /* MPInspectorViewController.h */,
 				4C77547416E55FE800970E02 /* MPInspectorViewController.m */,
 				4C76156F1764C0E20015A1A6 /* InspectorView.xib */,
+				4C2892A5257103F9003C7732 /* MPTOTPViewController.h */,
+				4C2892A6257103F9003C7732 /* MPTOTPViewController.m */,
+				4C2892A7257103F9003C7732 /* MPTOTPViewController.xib */,
 			);
 			name = Inspector;
 			sourceTree = "<group>";
@@ -1537,6 +1600,7 @@
 		4C77E36C15B84A240093A587 /* MacPass */ = {
 			isa = PBXGroup;
 			children = (
+				4CB1123E256EB74E00204D1B /* OTP */,
 				4CF9ECAE1BFDEC5700C58E99 /* Plugin */,
 				4C217D8E17A32BCF00609FAA /* Common */,
 				4C104129178CDD26001B5239 /* Categories */,
@@ -1677,6 +1741,9 @@
 				4C73B6EE215E64A7009787F7 /* MPWelcomeViewController.h */,
 				4C73B6EF215E64A7009787F7 /* MPWelcomeViewController.m */,
 				4C7F8B6A1A10B68400CCB83D /* WelcomeView.xib */,
+				4C356642258259AA00CAB95B /* MPTOTPSetupViewController.h */,
+				4C356643258259AA00CAB95B /* MPTOTPSetupViewController.m */,
+				4C356644258259AA00CAB95B /* MPTOTPSetupViewController.xib */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -1689,6 +1756,13 @@
 				4C2B0B7419F66F6400E48913 /* MPTargetNodeResolving.h */,
 			);
 			name = Protocolls;
+			sourceTree = "<group>";
+		};
+		4CB1123E256EB74E00204D1B /* OTP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = OTP;
 			sourceTree = "<group>";
 		};
 		4CCFA12C1BF0CC7A0078E0A1 /* Databases */ = {
@@ -1848,7 +1922,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MP;
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "HicknHack Software GmbH";
 				TargetAttributes = {
 					4C77E36115B84A240093A587 = {
@@ -1873,6 +1947,7 @@
 				es,
 				"sv-SE",
 				uk,
+				ja,
 			);
 			mainGroup = 4C77E35715B84A240093A587;
 			productRefGroup = 4C77E36315B84A240093A587 /* Products */;
@@ -1912,6 +1987,7 @@
 				4C3826B71AD04D8E007D7D67 /* 42_MemoryTemplate.pdf in Resources */,
 				4C3826B41AD04D8E007D7D67 /* 39_HistoryTemplate.pdf in Resources */,
 				4C77E37D15B84A240093A587 /* MainMenu.xib in Resources */,
+				4C4BE0C9257E9B91000AEA8C /* MPNotificationPreferencesController.xib in Resources */,
 				4C3826CD1AD04D8E007D7D67 /* 66_MoneyTemplate.pdf in Resources */,
 				78E1F8B022E3A5D600E738AE /* AutotypeDoctorReportViewController.xib in Resources */,
 				4CA0B2ED15BCADAC00654E32 /* PreferencesWindow.xib in Resources */,
@@ -2005,6 +2081,7 @@
 				4C17D11E2250EFBC00C650C4 /* SavePanelAccessoryView.xib in Resources */,
 				4CE88B9717BA651C0042E078 /* contextTriangleTemplate.pdf in Resources */,
 				4C7ABA4817BAEC6700FF5799 /* 15_ScannerTemplate.pdf in Resources */,
+				4C356646258259AA00CAB95B /* MPTOTPSetupViewController.xib in Resources */,
 				4C7ABA4917BAEC6700FF5799 /* 16_BrowserTemplate.pdf in Resources */,
 				4C7ABA4A17BAEC6700FF5799 /* 17_CDRomTemplate.pdf in Resources */,
 				4C7ABA4B17BAEC6700FF5799 /* 19_EmailTemplate.pdf in Resources */,
@@ -2019,6 +2096,7 @@
 				4C0DBEF51BF508DE00F9B287 /* PluginPreferences.xib in Resources */,
 				4CF6653820E67A140008A25C /* PluginDataView.xib in Resources */,
 				4C7F8B681A10B68400CCB83D /* WelcomeView.xib in Resources */,
+				4C2892A9257103F9003C7732 /* MPTOTPViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2102,6 +2180,7 @@
 				4C89F524182FB4740069C73C /* MPAutotypeCommand.m in Sources */,
 				4C6DCC611FA24C2100C8AD3F /* MPAutotypeCandidateSelectionViewController.m in Sources */,
 				4CFC53BF16E94729007396BE /* MPShadowBox.m in Sources */,
+				4C356645258259AA00CAB95B /* MPTOTPSetupViewController.m in Sources */,
 				4C0AF62F195C1F2B009E658D /* MPEntrySearchContext.m in Sources */,
 				4C1F7FA21E3A12E600D6A40E /* MPModifiedKey.m in Sources */,
 				4C888C9316EB6F5E003D34A1 /* MPToolbarItem.m in Sources */,
@@ -2171,7 +2250,10 @@
 				4C26C33F18D8C92100CF1A1C /* MPTemporaryFileStorage.m in Sources */,
 				4C663D411D6D91A900CB6237 /* MPNumberFormatter.m in Sources */,
 				4CD2B9061849424B0051B395 /* MPAutotypeContext.m in Sources */,
+				4C4BE0C8257E9B91000AEA8C /* MPNotificationPreferencesController.m in Sources */,
 				4CFB18E418A17FA20097A34B /* MPUpdatePreferencesController.m in Sources */,
+				4C6BF0762559BD4800E5812A /* KPKBinary+MacPassAddtions.m in Sources */,
+				4C35664025824C0A00CAB95B /* NSImage+MPQRCode.m in Sources */,
 				4CD4EE131FC7284000EA6EB3 /* MPPickcharsViewController.m in Sources */,
 				4CCEDE2A179F203B008402BE /* MPOutlineView.m in Sources */,
 				4CB33F861EAF54A000C9341E /* KPKNode+MPIsHistory.m in Sources */,
@@ -2204,6 +2286,7 @@
 				4C5807781C64F67000E7171F /* NSString+MPHash.m in Sources */,
 				4CAAA8271D787B8B00CDE977 /* MPAutotypeBuilderViewController.m in Sources */,
 				4CE501341BBC47F500FB819D /* MPTagsTokenFieldDelegate.m in Sources */,
+				4C2892A8257103F9003C7732 /* MPTOTPViewController.m in Sources */,
 				4CC6DB7A17D23719002C6091 /* KPKNode+IconImage.m in Sources */,
 				4C15B74618BCA3B1003F8008 /* MPDocument+Search.m in Sources */,
 				4CEED1C617D7BD0E007180F1 /* NSError+Messages.m in Sources */,
@@ -2229,6 +2312,7 @@
 				71FF7A23230FEF11002F488F /* it */,
 				D364AB1423FC104300AB1D8E /* pl */,
 				FA8CCD9123A7A6FA003A3BB1 /* uk */,
+				6FECA76F24D51B0A00BBA9BB /* ja */,
 			);
 			name = PickcharsView.xib;
 			sourceTree = "<group>";
@@ -2246,6 +2330,7 @@
 				78E1F8BA22E3B0B700E738AE /* ru */,
 				71FF7A25230FEF3D002F488F /* it */,
 				FA8CCD9223A7A6FA003A3BB1 /* uk */,
+				6FECA77024D51B0A00BBA9BB /* ja */,
 			);
 			name = PickfieldView.xib;
 			sourceTree = "<group>";
@@ -2264,6 +2349,7 @@
 				4C8C10061FC489D8003DDD5E /* nl */,
 				6A74B0692076F4B40049BC29 /* sv-SE */,
 				FA8CCD8323A7A6F7003A3BB1 /* uk */,
+				6FECA76324D51B0800BBA9BB /* ja */,
 			);
 			name = PluginPreferences.xib;
 			sourceTree = "<group>";
@@ -2280,6 +2366,7 @@
 				71FF7A29230FF0E4002F488F /* it */,
 				D364AB1523FC104300AB1D8E /* pl */,
 				FA8CCD9523A7A6FB003A3BB1 /* uk */,
+				6FECA77424D51B0B00BBA9BB /* ja */,
 			);
 			name = OpenPanelAccessoryView.xib;
 			sourceTree = "<group>";
@@ -2297,6 +2384,7 @@
 				ABAA99A4231519150095D78E /* zh-Hans */,
 				D364AB1623FC104300AB1D8E /* pl */,
 				FA8CCD7E23A7A6F6003A3BB1 /* uk */,
+				6FECA75D24D51B0700BBA9BB /* ja */,
 			);
 			name = SavePanelAccessoryView.xib;
 			sourceTree = "<group>";
@@ -2314,6 +2402,7 @@
 				4C4161171F50333C003BC0AF /* es */,
 				6A74B07D2076F4B60049BC29 /* sv-SE */,
 				FA8CCD9B23A7A6FC003A3BB1 /* uk */,
+				6FECA77924D51B0B00BBA9BB /* ja */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -2332,6 +2421,7 @@
 				4C6DCC591FA2458300C8AD3F /* es */,
 				6A74B0712076F4B50049BC29 /* sv-SE */,
 				FA8CCD8C23A7A6F9003A3BB1 /* uk */,
+				6FECA76A24D51B0900BBA9BB /* ja */,
 			);
 			name = ContextBar.xib;
 			sourceTree = "<group>";
@@ -2350,6 +2440,7 @@
 				4C41610E1F50333C003BC0AF /* es */,
 				6A74B06F2076F4B50049BC29 /* sv-SE */,
 				FA8CCD8A23A7A6F8003A3BB1 /* uk */,
+				6FECA76C24D51B0A00BBA9BB /* ja */,
 			);
 			name = IconSelection.xib;
 			sourceTree = "<group>";
@@ -2368,6 +2459,7 @@
 				4C4161041F50333B003BC0AF /* es */,
 				6A74B0652076F4B40049BC29 /* sv-SE */,
 				FA8CCD7F23A7A6F6003A3BB1 /* uk */,
+				6FECA76124D51B0800BBA9BB /* ja */,
 			);
 			name = GeneralPreferences.xib;
 			sourceTree = "<group>";
@@ -2386,6 +2478,7 @@
 				4C41610C1F50333C003BC0AF /* es */,
 				6A74B06D2076F4B40049BC29 /* sv-SE */,
 				FA8CCD8823A7A6F8003A3BB1 /* uk */,
+				6FECA76E24D51B0A00BBA9BB /* ja */,
 			);
 			name = PasswordInputView.xib;
 			sourceTree = "<group>";
@@ -2404,6 +2497,7 @@
 				4C4161091F50333B003BC0AF /* es */,
 				6A74B06A2076F4B40049BC29 /* sv-SE */,
 				FA8CCD8523A7A6F7003A3BB1 /* uk */,
+				6FECA76024D51B0800BBA9BB /* ja */,
 			);
 			name = InspectorView.xib;
 			sourceTree = "<group>";
@@ -2422,6 +2516,7 @@
 				6A74B07C2076F4B60049BC29 /* sv-SE */,
 				4C9FE47423703DA50096A5EA /* en */,
 				FA8CCD9A23A7A6FB003A3BB1 /* uk */,
+				6FECA77824D51B0B00BBA9BB /* ja */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -2440,6 +2535,7 @@
 				4C4161121F50333C003BC0AF /* es */,
 				6A74B0782076F4B50049BC29 /* sv-SE */,
 				FA8CCD9623A7A6FB003A3BB1 /* uk */,
+				6FECA77524D51B0B00BBA9BB /* ja */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -2458,6 +2554,7 @@
 				4C4161111F50333C003BC0AF /* es */,
 				6A74B0772076F4B50049BC29 /* sv-SE */,
 				FA8CCD9323A7A6FA003A3BB1 /* uk */,
+				6FECA77324D51B0B00BBA9BB /* ja */,
 			);
 			name = WelcomeView.xib;
 			sourceTree = "<group>";
@@ -2476,6 +2573,7 @@
 				6A74B07A2076F4B60049BC29 /* sv-SE */,
 				4C1888D0230FFEE20054A38F /* it */,
 				FA8CCD9823A7A6FB003A3BB1 /* uk */,
+				6FECA77724D51B0B00BBA9BB /* ja */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -2494,6 +2592,7 @@
 				4CA1828C1F96525B00DD4A4A /* es */,
 				6A74B0642076F4B40049BC29 /* sv-SE */,
 				FA8CCD7D23A7A6F5003A3BB1 /* uk */,
+				6FECA75B24D51B0700BBA9BB /* ja */,
 			);
 			name = DuplicateEntryOptionsWindow.xib;
 			sourceTree = "<group>";
@@ -2520,6 +2619,7 @@
 				4C1D56362271F4BC00C3E594 /* fr */,
 				ABAA99A523151BE70095D78E /* zh-Hans */,
 				FA8CCD8D23A7A6F9003A3BB1 /* uk */,
+				6FECA77224D51B0A00BBA9BB /* ja */,
 			);
 			name = ReferenceBuilderView.xib;
 			sourceTree = "<group>";
@@ -2537,6 +2637,7 @@
 				71FF7A1F230FEEC7002F488F /* it */,
 				ABE86630231662D200201125 /* zh-Hans */,
 				FA8CCD8F23A7A6F9003A3BB1 /* uk */,
+				6FECA77124D51B0A00BBA9BB /* ja */,
 			);
 			name = PluginDataView.xib;
 			sourceTree = "<group>";
@@ -2555,6 +2656,7 @@
 				4C41610B1F50333C003BC0AF /* es */,
 				6A74B06C2076F4B40049BC29 /* sv-SE */,
 				FA8CCD8723A7A6F8003A3BB1 /* uk */,
+				6FECA75E24D51B0800BBA9BB /* ja */,
 			);
 			name = EntryInspectorView.xib;
 			sourceTree = "<group>";
@@ -2573,6 +2675,7 @@
 				4C41610A1F50333B003BC0AF /* es */,
 				6A74B06B2076F4B40049BC29 /* sv-SE */,
 				FA8CCD8623A7A6F7003A3BB1 /* uk */,
+				6FECA75F24D51B0800BBA9BB /* ja */,
 			);
 			name = GroupInspectorView.xib;
 			sourceTree = "<group>";
@@ -2591,6 +2694,7 @@
 				6A74B0662076F4B40049BC29 /* sv-SE */,
 				78E1F8AF22E3A3DF00E738AE /* ru */,
 				FA8CCD8023A7A6F6003A3BB1 /* uk */,
+				6FECA76224D51B0800BBA9BB /* ja */,
 			);
 			name = IntegrationPreferences.xib;
 			sourceTree = "<group>";
@@ -2609,6 +2713,7 @@
 				4C4161061F50333B003BC0AF /* es */,
 				6A74B0672076F4B40049BC29 /* sv-SE */,
 				FA8CCD8123A7A6F6003A3BB1 /* uk */,
+				6FECA76624D51B0900BBA9BB /* ja */,
 			);
 			name = WorkflowPreferences.xib;
 			sourceTree = "<group>";
@@ -2627,6 +2732,7 @@
 				4C4161071F50333B003BC0AF /* es */,
 				6A74B0682076F4B40049BC29 /* sv-SE */,
 				FA8CCD8223A7A6F6003A3BB1 /* uk */,
+				6FECA76524D51B0900BBA9BB /* ja */,
 			);
 			name = UpdatePreferences.xib;
 			sourceTree = "<group>";
@@ -2645,6 +2751,7 @@
 				4C41610F1F50333C003BC0AF /* es */,
 				6A74B0702076F4B50049BC29 /* sv-SE */,
 				FA8CCD8B23A7A6F9003A3BB1 /* uk */,
+				6FECA76B24D51B0900BBA9BB /* ja */,
 			);
 			name = DatePickingView.xib;
 			sourceTree = "<group>";
@@ -2663,6 +2770,7 @@
 				4C4161031F50333B003BC0AF /* es */,
 				6A74B0632076F4B30049BC29 /* sv-SE */,
 				FA8CCD7C23A7A6F5003A3BB1 /* uk */,
+				6FECA75C24D51B0700BBA9BB /* ja */,
 			);
 			name = PasswordEditWindow.xib;
 			sourceTree = "<group>";
@@ -2681,6 +2789,7 @@
 				4C41610D1F50333C003BC0AF /* es */,
 				6A74B06E2076F4B50049BC29 /* sv-SE */,
 				FA8CCD8923A7A6F8003A3BB1 /* uk */,
+				6FECA76D24D51B0A00BBA9BB /* ja */,
 			);
 			name = PasswordCreatorView.xib;
 			sourceTree = "<group>";
@@ -2699,6 +2808,7 @@
 				4C4161021F50333B003BC0AF /* es */,
 				6A74B0622076F4B30049BC29 /* sv-SE */,
 				FA8CCD7B23A7A6F5003A3BB1 /* uk */,
+				6FECA75A24D51B0700BBA9BB /* ja */,
 			);
 			name = DatabaseSettingsWindow.xib;
 			sourceTree = "<group>";
@@ -2715,6 +2825,7 @@
 				ABAA99A623151BE70095D78E /* zh-Hans */,
 				D364AB1823FC104300AB1D8E /* pl */,
 				FA8CCD8423A7A6F7003A3BB1 /* uk */,
+				6FECA76424D51B0800BBA9BB /* ja */,
 			);
 			name = PluginRepositoryBrowserView.xib;
 			sourceTree = "<group>";
@@ -2730,6 +2841,7 @@
 				43B7080F240978E500F68426 /* fr */,
 				D364AB1723FC104300AB1D8E /* pl */,
 				FA8CCD9423A7A6FA003A3BB1 /* uk */,
+				6FECA76924D51B0900BBA9BB /* ja */,
 			);
 			name = AutotypeDoctorReportViewController.xib;
 			sourceTree = "<group>";
@@ -2747,6 +2859,7 @@
 				78E1F8C122E3B32D00E738AE /* ru */,
 				ABE8662E2316617500201125 /* zh-Hans */,
 				FA8CCD9723A7A6FB003A3BB1 /* uk */,
+				6FECA77624D51B0B00BBA9BB /* ja */,
 			);
 			name = Localizable.stringsdict;
 			sourceTree = "<group>";
@@ -2765,6 +2878,7 @@
 				71FF7A21230FEEE2002F488F /* it */,
 				ABE506D522EFF97400B9F8DA /* zh-Hans */,
 				FA8CCD9023A7A6FA003A3BB1 /* uk */,
+				6FECA76824D51B0900BBA9BB /* ja */,
 			);
 			name = AutotypeCandidateSelectionView.xib;
 			sourceTree = "<group>";
@@ -2783,6 +2897,7 @@
 				71FF7A1D230FEE7B002F488F /* it */,
 				ABE506D622EFF97400B9F8DA /* zh-Hans */,
 				FA8CCD8E23A7A6F9003A3BB1 /* uk */,
+				6FECA76724D51B0900BBA9BB /* ja */,
 			);
 			name = AutotypeBuilderView.xib;
 			sourceTree = "<group>";

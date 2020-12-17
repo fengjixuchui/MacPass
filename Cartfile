@@ -1,4 +1,4 @@
 github "sparkle-project/Sparkle" ~> 1.22
 github "mattt/TransformerKit" ~> 1.1.1
-github "MacPass/KeePassKit" "4e928213b2ef3a07dcf0b5d9440459f119f9d2f5" 
-github "mstarke/HNHUi" ~> 3.0
+github "MacPass/KeePassKit" "5a57e2e90e8b96e7aa76f573ed8d48e8d584dc4a" 
+github "mstarke/HNHUi" ~> 4.0
