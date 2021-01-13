@@ -45,7 +45,7 @@
 NSString *const MPDocumentDidAddGroupNotification             = @"com.hicknhack.macpass.MPDocumentDidAddGroupNotification";
 NSString *const MPDocumentDidAddEntryNotification             = @"com.hicknhack.macpass.MPDocumentDidAddEntryNotification";
 
-NSString *const MPDocumentDidRevertNotifiation                = @"com.hicknhack.macpass.MPDocumentDidRevertNotifiation";
+NSString *const MPDocumentDidRevertNotification               = @"com.hicknhack.macpass.MPDocumentDidRevertNotification";
 
 NSString *const MPDocumentDidLockDatabaseNotification         = @"com.hicknhack.macpass.MPDocumentDidLockDatabaseNotification";
 NSString *const MPDocumentDidUnlockDatabaseNotification       = @"com.hicknhack.macpass.MPDocumentDidUnlockDatabaseNotification";
@@ -147,6 +147,12 @@ NSString *const MPDocumentGroupKey                            = @"MPDocumentGrou
   [self addWindowController:windowController];
 }
 
+/*
+- (BOOL)canAsynchronouslyWriteToURL:(NSURL *)url ofType:(NSString *)typeName forSaveOperation:(NSSaveOperationType)saveOperation {
+  return YES;
+}
+ */
+
 - (BOOL)checkAutosavingSafetyAndReturnError:(NSError **)outError {
   if(![super checkAutosavingSafetyAndReturnError:outError]) {
     return NO; // default checking has found an error!
@@ -202,6 +208,9 @@ NSString *const MPDocumentGroupKey                            = @"MPDocumentGrou
     }
     return nil; // We do not know what version to save!
   }
+  
+  // FIXME: add [self unblockUserInteraction] to enable async save in background!
+  // this requires a "snapshot" of the tree to be made and stored!
   return [self.tree encryptWithKey:self.compositeKey format:format error:outError];
 }
 
@@ -216,7 +225,7 @@ NSString *const MPDocumentGroupKey                            = @"MPDocumentGrou
 
 - (BOOL)revertToContentsOfURL:(NSURL *)absoluteURL ofType:(NSString *)typeName error:(NSError **)outError {
   if([super revertToContentsOfURL:absoluteURL ofType:typeName error:outError]) {
-    [[NSNotificationCenter defaultCenter] postNotificationName:MPDocumentDidRevertNotifiation object:self];
+    [[NSNotificationCenter defaultCenter] postNotificationName:MPDocumentDidRevertNotification object:self];
     return YES;
   }
   return NO;
